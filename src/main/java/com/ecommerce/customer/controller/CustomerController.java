@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/v1")
+@RequestMapping("/v1/customers")
 public class CustomerController {
 
     private final CustomerService customerService;
