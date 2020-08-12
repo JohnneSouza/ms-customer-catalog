@@ -25,7 +25,7 @@ public class CustomerController {
     }
 
     @PostMapping
-    public Mono<Customer> save(@Valid Customer customer){
+    public Mono<Customer> save(@Valid @RequestBody Customer customer){
         return customerService.save(customer);
     }
 

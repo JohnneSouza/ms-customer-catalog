@@ -15,7 +15,7 @@ public class Customer {
 
     @Id
     private String id;
-    @NotEmpty(message = "Name must not be empty")
+    @NotEmpty(message = "name must not be empty")
     private String name;
     private String birthday;
     private Address address;
